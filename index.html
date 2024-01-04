@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Votre Nom</title>
+    <style>
+        body {
+            font-family: 'Arial', sans-serif;
+            background-color: #F7F7F0;
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        header {
+            background-color: #DBB6EE;
+            text-align: center;
+            padding: 20px;
+        }
+
+        header img {
+            border-radius: 50%;
+            max-width: 100px;
+            height: auto;
+        }
+
+        section {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            padding: 20px;
+        }
+
+        .about, .projects, .contact, .cv, .art {
+            background-color: #B3F3E6;
+            margin: 10px;
+            padding: 20px;
+            text-align: center;
+            border-radius: 10px;
+            width: calc(50% - 20px);
+            box-sizing: border-box;
+        }
+
+        .art img {
+            width: 100%;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        footer {
+            background-color: #FFCBE3;
+            text-align: center;
+            padding: 10px;
+            position: fixed;
+            bottom: 0;
+            width: 100%;
+        }
+    </style>
+</head>
+<body>
+
+    <header>
+        <img src="lien_votre_photo.jpg" alt="Votre Photo">
+        <h1>Votre Nom</h1>
+    </header>
+
+    <section>
+        <div class="about">
+            <h2>À propos</h2>
+            <p>Texte à propos de vous.</p>
+        </div>
+
+        <div class="projects">
+            <h2>Projets Informatiques</h2>
+            <p>Projet 1</p>
+            <p>Projet 2</p>
+            <p>Projet 3</p>
+            <p>Projet 4</p>
+        </div>
+
+        <div class="contact">
+            <h2>Contact</h2>
+            <p>Email: votre@email.com</p>
+            <p>LinkedIn: linkedin.com/in/vous</p>
+        </div>
+
+        <div class="cv">
+            <h2>Télécharger mon CV</h2>
+            <p><a href="lien_votre_cv.pdf" download>Télécharger</a></p>
+        </div>
+
+        <div class="art">
+            <h2>Art</h2>
+            <img src="image1.jpg" alt="Art 1">
+            <img src="image2.jpg" alt="Art 2">
+            <img src="image3.jpg" alt="Art 3">
+            <img src="image4.jpg" alt="Art 4">
+        </div>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Votre Nom. Tous droits réservés.</p>
+    </footer>
+
+</body>
+</html>
